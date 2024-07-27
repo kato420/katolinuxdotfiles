@@ -1,4 +1,4 @@
-#!(https://github.com/kato420/katolinuxdotfiles/blob/main/img/zeldaaaa.png) Hola, mi nombre es Kato 👋
+# ![katito](https://github.com/kato420/katolinuxdotfiles/blob/main/img/zeldaaaa.png) Hola, mi nombre es Kato 👋
 ### CS-UTEC
 ![kato](https://github.com/kato420/katolinuxdotfiles/blob/main/img/banner.png)
 ![Discord](https://img.shields.io/badge/Discord-kato420\_0-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=101010)
