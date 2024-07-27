@@ -1,4 +1,4 @@
 # Kato Linux Doftiles 🦉
-![Kato](https://github.com/kato420/katolinuxdotfiles/blob/main/kato.png) Hola, mi nombre es Kato 👋
 ### CS-UTEC
+![kato](https://github.com/kato420/katolinuxdotfiles/blob/main/banner.png)
 configuration files of my system with Linux
