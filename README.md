@@ -24,6 +24,6 @@ Reload: `sudo locale-gen`
 ### YAY AUR
 Yay is an AUR (Arch User Repository) helper that simplifies the installation and management of packages on Arch Linux. It streamlines searching, building, and installing packages from the AUR with easy-to-use commands. Use the `sudo pacman -Syu` command before installing any new packages.
 ```sh
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
