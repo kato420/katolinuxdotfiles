@@ -10,9 +10,12 @@
 
 Configuration files of my system with Linux.
 
-ARCHLINUX
+ARCH LINUX
 ---------
 ### Fonts / Japan UTF
+For Japanese and Korean support
 ```sh
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 ```
+Then, in `sudo nano /etc/locale.gen`, search for ja_JP.UTF-8 UTF-8 and ko_KR.UTF-8 UTF-8.
+Reload: `sudo locale-gen`
