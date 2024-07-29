@@ -9,3 +9,10 @@
 </br>
 
 Configuration files of my system with Linux.
+
+ARCHLINUX
+---------
+### Fonts / Japan UTF
+```sh
+sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
+```
