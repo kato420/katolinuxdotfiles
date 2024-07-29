@@ -18,4 +18,11 @@ For Japanese and Korean support
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 ```
 Then, in `sudo nano /etc/locale.gen`, search for ja_JP.UTF-8 UTF-8 and ko_KR.UTF-8 UTF-8.
+
 Reload: `sudo locale-gen`
+
+### YAY AUR
+```sh
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```
+
