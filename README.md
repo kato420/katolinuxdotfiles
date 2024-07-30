@@ -58,3 +58,13 @@ If you want to disable the automatic activation of the base environment:
 conda config --set auto_activate_base false
 ```
 
+### NVM
+NVM (Node Version Manager) is a tool that allows you to easily install, manage, and switch between different versions of Node.js. It simplifies the process of updating Node.js and provides a way to maintain multiple versions for different projects.
+```sh
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+```
+Add these lines to your `.bashrc` or `.zshrc` configuration file:
+```sh
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"}
+```
