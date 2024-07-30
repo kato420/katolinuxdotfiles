@@ -17,7 +17,7 @@ For Japanese and Korean support
 ```sh
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
 ```
-Then, in `sudo nano /etc/locale.gen`, search for ja_JP.UTF-8 UTF-8 and ko_KR.UTF-8 UTF-8.
+Then, in `sudo nano /etc/locale.gen`, search for `ja_JP.UTF-8 UTF-8` and `ko_KR.UTF-8 UTF-8`.
 
 Reload: `sudo locale-gen`
 
@@ -25,5 +25,34 @@ Reload: `sudo locale-gen`
 Yay is an AUR (Arch User Repository) helper that simplifies the installation and management of packages on Arch Linux. It streamlines searching, building, and installing packages from the AUR with easy-to-use commands. Use the `sudo pacman -Syu` command before installing any new packages.
 ```sh
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+```
+
+### MINICONDA
+Miniconda is a lightweight installer for Conda, a package manager for Python and other languages. It allows you to quickly set up and manage isolated environments and packages with minimal overhead.
+```sh
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
+sh ~/miniconda.sh -b -f -p  $HOME/.miniconda
+rm ~/miniconda.sh
+```
+Add these lines to your .bashrc or .zshrc configuration file:
+```sh
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$("$HOME/.miniconda/bin/conda" 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "$HOME/.miniconda/etc/profile.d/conda.sh" ]; then
+        . "$HOME/.miniconda/etc/profile.d/conda.sh"
+    else
+        export PATH="$HOME/.miniconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+```
+If you want to disable the automatic activation of the base environment:
+```sh
+conda config --set auto_activate_base false
 ```
 
