@@ -36,7 +36,7 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/
 sh ~/miniconda.sh -b -f -p  $HOME/.miniconda
 rm ~/miniconda.sh
 ```
-Add these lines to your .bashrc or .zshrc configuration file:
+Add these lines to your `.bashrc` or `.zshrc` configuration file:
 ```sh
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
