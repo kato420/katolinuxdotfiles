@@ -74,9 +74,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 | 📚 APP   | ✨ Documentation |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **NVIMCHAD** | [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.10-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim) [NvChad](https://github.com/NvChad/NvChad) |
-| **KITTY** | 🐱[![Kitty](https://img.shields.io/badge/Kitty-0.26-blueviolet.svg?style=flat-square&logo=kitty&color=cc241d&logoColor=white)](https://github.com/kovidgoyal/kitty) |
-| **pl10k** | [pl10k](https://github.com/romkatv/powerlevel10k) |
+| **Neovim** | [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.10-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim) | 👹[NvChad](https://github.com/NvChad/NvChad) |
+| **Kitty** | [![Kitty](https://img.shields.io/badge/Kitty-0.26-blueviolet.svg?style=flat-square&logo=kitty&color=cc241d&logoColor=white)](https://github.com/kovidgoyal/kitty) |
+| **P10k** | [pl10k](https://github.com/romkatv/powerlevel10k) |
 
 </details>
 
