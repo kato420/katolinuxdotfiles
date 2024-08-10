@@ -12,7 +12,7 @@ Configuration files of my system with Linux.
 
 ARCH LINUX
 ---------
-### Fonts / Japan UTF
+### Fonts / Japan UTF 🈴🎎
 For Japanese and Korean support
 ```sh
 sudo pacman -S noto-fonts noto-fonts-cjk noto-fonts-emoji
@@ -22,14 +22,14 @@ Then, in `sudo nano /etc/locale.gen`, search for `ja_JP.UTF-8 UTF-8` and `ko_KR.
 Reload: `sudo locale-gen`
 
 
-### YAY AUR
+### YAY AUR 🎃🎁
 Yay is an AUR (Arch User Repository) helper that simplifies the installation and management of packages on Arch Linux. It streamlines searching, building, and installing packages from the AUR with easy-to-use commands. Use the `sudo pacman -Syu` command before installing any new packages.
 ```sh
 sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 ```
 
 
-### MINICONDA
+### MINICONDA 🐍📌
 Miniconda is a lightweight installer for Conda, a package manager for Python and other languages. It allows you to quickly set up and manage isolated environments and packages with minimal overhead.
 ```sh
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda.sh
@@ -58,7 +58,7 @@ If you want to disable the automatic activation of the base environment:
 conda config --set auto_activate_base false
 ```
 
-### NVM
+### NVM 🧵🍩
 NVM (Node Version Manager) is a tool that allows you to easily install, manage, and switch between different versions of Node.js. It simplifies the process of updating Node.js and provides a way to maintain multiple versions for different projects.
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
