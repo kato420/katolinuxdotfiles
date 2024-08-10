@@ -74,6 +74,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 | 📚 APP                   | ✨ Documentation                                                                                                        |
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
-| **NVIMCHAD               | [nvimchad](https://github.com/NvChad/NvChad)                                                                            |
+| NVIMCHAD                 | [nvimchad](https://github.com/NvChad/NvChad)                                                                            |
+| KITTY                    | [kitty](https://github.com/kovidgoyal/kitty)                                                                            |
+| pl10k                    | [pl10k](https://github.com/romkatv/powerlevel10k)                                                                       |
+
 </details>
 
