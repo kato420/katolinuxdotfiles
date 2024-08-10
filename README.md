@@ -74,9 +74,9 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 | 📚 APP   | ✨ Documentation |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **NVIMCHAD** | [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.10-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim) [NvChad](https://github.com/NvChad/NvChad) |
-| **KITTY** | [Kitty](https://github.com/kovidgoyal/kitty) |
-| **pl10k** | [pl10k](https://github.com/romkatv/powerlevel10k) |
+| **Neovim** | [![Neovim Minimum Version](https://img.shields.io/badge/Neovim-0.10-blueviolet.svg?style=flat-square&logo=Neovim&color=90E59A&logoColor=white)](https://github.com/neovim/neovim) |
+| **Kitty** | [Kitty](https://github.com/kovidgoyal/kitty) |
+| **P10K** | [pl10k](https://github.com/romkatv/powerlevel10k) |
 
 </details>
 
