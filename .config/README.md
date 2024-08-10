@@ -5,3 +5,4 @@ Kitty does support OSC 52, but it has a bug where it appends to the clipboard ea
 ```sh
 clipboard_control write-primary write-clipboard no-append
 ```
+For more information, go to the documentation link where this bug was resolved: https://github.com/tmux/tmux/wiki/Clipboard
