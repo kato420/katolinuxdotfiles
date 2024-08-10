@@ -8,4 +8,4 @@ clipboard_control write-primary write-clipboard no-append
 ```
 This error didn’t come up much for me. I ran into it on Linux Mint and fixed it with this line.
 
-For more information, go to the documentation link where this bug was resolved: https://github.com/tmux/tmux/wiki/Clipboard
+For more information go to the documentation link where this bug was explained: https://github.com/tmux/tmux/wiki/Clipboard
