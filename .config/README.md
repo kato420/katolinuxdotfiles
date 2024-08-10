@@ -1,4 +1,4 @@
-# NOTES 
+# Bug Fixes and Configuration 🐧🔧 
 
 ### Terminal support - Kitty
 ![kato](https://github.com/kato420/katolinuxdotfiles/blob/main/.config/img/Kitty-Terminal-Emulator.png)
