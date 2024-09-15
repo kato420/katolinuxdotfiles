@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+#recordar que podemos ingresar las variables sin poder modificar los valores iniciales de cada string
 int main() {
     string password;
     cout << "Introduce tu contraseña: ";
