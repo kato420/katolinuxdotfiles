@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    string password;
+    cout << "Introduce tu contraseña: ";
+    getline(cin, password);
+    cout << "Tamaño del texto: " << password.length() << endl;
+    cout << "Valores ASCII de cada caracter:" << endl;
+    for (char c : password) {
+        cout << c << " -> " << static_cast<int>(c) << endl;
+    }
+    return 0;
+}
